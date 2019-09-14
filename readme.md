@@ -22,3 +22,6 @@ getch.pause()
 passwd = getch.password('password: ') 
 
 ```
+# Clone
+`git clone https://github.com/omidekz/getch.git`
+### and use it like above code 
