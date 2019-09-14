@@ -1,5 +1,5 @@
 # getch
-getch impl im python
+getch impl in python
 ## usage
 ```python
 import getch
