@@ -49,10 +49,7 @@ def getch(message=None, clear_line_after_getch=False):
     print_in_line(message)
     ch = _GetCh()()
     if clear_line_after_getch:
-        print('\r', end='')
-        for i in range(len(message)):
-            print(' ', end='')
-        print('\r', end='')
+        print_in_line('\r{}\r'.format(''.join([' ' for _ in message])))
     return ch
 
 
