@@ -3,6 +3,8 @@ getch impl im python
 ## usage
 ```python
 import getch
+
+
 # return a char
 ch = getch.getch() 
 
